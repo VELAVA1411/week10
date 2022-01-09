@@ -1,5 +1,5 @@
 const writeAll = (pegMap) => {
-    let s = JSON.stringify(pegMap);
+    let s = JSON.stringify(pegMap);;
     // write output
     console.log(s);
     pegHist.push(JSON.parse(s));
